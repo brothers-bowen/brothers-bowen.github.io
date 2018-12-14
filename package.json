@@ -13,7 +13,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "npm-s build upload",
+    "deploy": "npm-run-all build upload",
     "upload": "gh-pages -b master -d build"
   },
   "eslintConfig": {
