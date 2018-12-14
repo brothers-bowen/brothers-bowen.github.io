@@ -1,7 +1,7 @@
 {
   "name": "brother",
   "version": "0.1.0",
-  "homepage": "http://brothers-bowen.github.io/react-gh-pages",
+  "homepage": "http://brothers-bowen.github.io",
   "private": true,
   "dependencies": {
     "react": "^16.6.3",
@@ -13,8 +13,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "npm-s build upload",
+    "upload": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
